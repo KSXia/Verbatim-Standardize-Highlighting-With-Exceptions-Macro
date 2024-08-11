@@ -104,11 +104,11 @@ Sub Standardize_Highlighting_With_Exceptions()
 				End If
 			Next I
 
-			' If the color of the current word is an exception:
 			If IsException Then
+				' If the color of the current word is an exception:
 				r.Collapse Direction:=wdCollapseEnd
-			' If the color of the current word is not an exception:
 			Else
+				' If the color of the current word is not an exception:
 				' Set the highlighting of the current word to the default highlighting color
 				r.HighlightColorIndex = Options.DefaultHighlightColorIndex
 			End If
