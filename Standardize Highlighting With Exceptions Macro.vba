@@ -1,11 +1,12 @@
-' Standardize Highlighting With Exceptions Macro---v1.0.0
+' Standardize Highlighting With Exceptions Macro---v1.0.1
 ' https://github.com/KSXia/Verbatim-Standardize-Highlighting-With-Exceptions-Macro
-' Created on 2024-08-10
+' Updated on 2024-08-16
 ' Based on Verbatim 6.0.0's "UniHighlightWithException" function
 Sub Standardize_Highlighting_With_Exceptions()
 	Dim ExceptionColors() As Variant
 	
-	' ---SET THE HIGHLIGHTING COLORS THAT SHOULD NOT BE STANDARDIZED <<HERE>>!---
+	' ---USER CUSTOMIZATION---
+	' <<SET THE HIGHLIGHTING COLORS THAT SHOULD NOT BE STANDARDIZED HERE!>>
 	' Add the names of highlighting colors that you want to exempt from standardization to the list in the ExceptionColors array. Make sure that the name of every highlighting color is in quotation marks and that each term is separated by commas.
 	' NOTE: This macro does NOT automatically exempt the highlighting color you have set to be exempted in the Verbatim settings. You MUST MANUALLY enter the highlighting colors you would like to exempt into this list.
 	'
