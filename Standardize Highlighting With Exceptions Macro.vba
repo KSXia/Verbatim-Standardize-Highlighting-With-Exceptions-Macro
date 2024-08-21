@@ -1,4 +1,4 @@
-' Standardize Highlighting With Exceptions Macro v2.0.1
+' ---Standardize Highlighting With Exceptions Macro v2.0.1---
 ' Updated on 2024-08-16.
 ' https://github.com/KSXia/Verbatim-Standardize-Highlighting-With-Exceptions-Macro
 ' Based on Verbatim 6.0.0's "UniHighlightWithException" function.
